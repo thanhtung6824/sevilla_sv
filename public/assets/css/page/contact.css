@@ -1,0 +1,75 @@
+.contact-tab {
+  z-index: 3;
+  width: 33%;
+  text-align: center; }
+
+.guarantee-tab {
+  z-index: 2;
+  width: 66%;
+  padding-left: 33%; }
+
+.agency-tab {
+  z-index: 1;
+  width: 100%;
+  padding-left: 66%; }
+
+.tab-content {
+  margin-top: 100px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+.question-field {
+  width: 800px;
+  margin-top: 100px; }
+  .question-field .item-wrapper {
+    width: 100%; }
+  .question-field .question-title {
+    font-size: 12pt; }
+  .question-field .question-form {
+    margin-top: 50px;
+    display: block;
+    text-align: center; }
+    .question-field .question-form form {
+      display: inline-block; }
+      .question-field .question-form form input::placeholder {
+        color: black;
+        font-size: 8pt;
+        font-family: UTMBOLD; }
+      .question-field .question-form form textarea::placeholder {
+        color: black;
+        font-size: 8pt;
+        font-family: UTMBOLD; }
+      .question-field .question-form form textarea {
+        height: 200px !important; }
+      .question-field .question-form form .btn {
+        width: 100px; }
+      .question-field .question-form form .form-control {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #44a032; }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .toggable-tab {
+    width: 80% !important; }
+  .question-field {
+    width: 80% !important; }
+  a {
+    font-family: UTMBOLD;
+    color: #333333;
+    font-size: 8pt !important; }
+  .tab-field {
+    height: 50px; } }
+
+@media (min-width: 768px) and (max-width: 1268px) {
+  .toggable-tab {
+    width: 80% !important; }
+    .toggable-tab a {
+      font-family: UTMBOLD;
+      color: #333333;
+      font-size: 8pt !important; }
+    .toggable-tab .tab-field {
+      height: 50px; }
+  .question-field {
+    width: 80% !important; } }

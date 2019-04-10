@@ -1,0 +1,151 @@
+html body {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  font-family: UTMFONT !important; }
+
+a, span, div {
+  font-family: UTMFONT !important; }
+
+.page-container-wrapper {
+  min-height: 100% !important;
+  position: relative; }
+
+.page-header {
+  width: 100%;
+  margin: 0;
+  height: 99px;
+  min-height: 99px;
+  top: 0;
+  z-index: 999999;
+  position: fixed;
+  -webkit-transition: 2s ease-out;
+  -moz-transition: 2s ease-out;
+  -o-transition: 2s ease-out;
+  transition: 2s ease-out;
+  background-color: #ffffff !important; }
+  .page-header .page-header-inner {
+    text-align: center; }
+    .page-header .page-header-inner .navbar {
+      align-items: center;
+      display: inline-block; }
+      .page-header .page-header-inner .navbar .navbar-nav {
+        display: flex; }
+        .page-header .page-header-inner .navbar .navbar-nav li {
+          display: inline-flex;
+          vertical-align: middle; }
+        .page-header .page-header-inner .navbar .navbar-nav li:hover {
+          background-color: #fff !important; }
+      .page-header .page-header-inner .navbar a {
+        color: #333333;
+        font-size: 11pt;
+        font-weight: 550;
+        line-height: 60px; }
+
+.page-container {
+  margin-top: 45px;
+  padding-bottom: 400px; }
+  .page-container .page-content-wrapper {
+    margin-bottom: 34px;
+    font-family: UTM;
+    font-size: 13px; }
+    .page-container .page-content-wrapper .page-logo img {
+      display: block;
+      margin: 0 auto; }
+    .page-container .page-content-wrapper .page-intro {
+      margin-top: 55px;
+      width: 700px; }
+      .page-container .page-content-wrapper .page-intro .list-intro {
+        padding: 0;
+        display: flex;
+        list-style-type: none; }
+        .page-container .page-content-wrapper .page-intro .list-intro li {
+          flex-grow: 1;
+          display: inline-block;
+          flex-basis: 0; }
+          .page-container .page-content-wrapper .page-intro .list-intro li a {
+            text-decoration: none;
+            color: #333333;
+            font-size: 12pt; }
+    .page-container .page-content-wrapper .page-banner {
+      width: 100%;
+      height: 487px;
+      background-image: url(../../image/banner.png);
+      background-position: center;
+      /* Center the image */
+      background-repeat: no-repeat;
+      /* Do not repeat the image */
+      background-size: cover;
+      /* Resize the background image to cover the entire container */ }
+    .page-container .page-content-wrapper .page-toolbar {
+      padding: 15px 30px 15px 20px;
+      background-color: #429e31;
+      position: fixed;
+      z-index: 999999;
+      height: 100px;
+      width: 340px;
+      border-radius: 0 100px 100px 0;
+      bottom: 250px; }
+      .page-container .page-content-wrapper .page-toolbar .toolbar-hotline .hotline-contact {
+        color: #ffffff; }
+        .page-container .page-content-wrapper .page-toolbar .toolbar-hotline .hotline-contact .hotline-text {
+          margin-left: 20px;
+          font-size: 20px; }
+        .page-container .page-content-wrapper .page-toolbar .toolbar-hotline .hotline-contact .hotline-phone {
+          font-size: 20px;
+          font-weight: 500; }
+      .page-container .page-content-wrapper .page-toolbar .toolbar-social {
+        float: right; }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  a {
+    font-family: UTMBOLD;
+    color: #333333;
+    font-size: 6pt !important; }
+  .page-intro {
+    width: 100% !important; }
+  .page-footer {
+    padding: 40px 0 40px 0 !important; }
+  .item-wrapper {
+    width: 100% !important; } }
+
+@media (min-width: 768px) and (max-width: 1268px) {
+  a {
+    font-family: UTMBOLD;
+    color: #333333;
+    font-size: 8pt !important; } }
+
+.field-badge {
+  margin-top: 45px;
+  width: 100%;
+  text-align: center; }
+
+.field-badge-inline {
+  width: 100%;
+  display: inline-block; }
+
+.item-wrapper {
+  width: 60%; }
+
+.page-footer {
+  padding-top: 90px;
+  background-color: #e5e5e5;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  min-height: 300px;
+  position: absolute; }
+  .page-footer .page-footer-inner .footer-info {
+    margin-top: 25px; }
+    .page-footer .page-footer-inner .footer-info .company-name {
+      color: #878787; }
+  .page-footer .company-contact {
+    margin: 0;
+    font-size: 11pt;
+    color: #6e6e6e; }
