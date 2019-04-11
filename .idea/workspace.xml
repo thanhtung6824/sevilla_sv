@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="287c8334-10fc-4bb1-be57-369744060021" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/layouts/component-rounded.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/layouts/component-rounded.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contacts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/contacts.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/product.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="287c8334-10fc-4bb1-be57-369744060021" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -28,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/contacts.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="502">
               <caret line="113" selection-start-line="113" selection-end-line="113" />
             </state>
           </provider>
@@ -146,12 +140,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554889462109</updated>
       <workItem from="1554889464131" duration="4267000" />
-      <workItem from="1554944646287" duration="371000" />
+      <workItem from="1554944646287" duration="625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4638000" />
+    <option name="totallyTimeSpent" value="4892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="48" width="1440" height="803" extended-state="0" />
@@ -265,7 +259,7 @@
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -278,7 +272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/contacts.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="502">
           <caret line="113" selection-start-line="113" selection-end-line="113" />
         </state>
       </provider>

@@ -6,6 +6,10 @@ router.get('/', function(req, res, next) {
   res.render('home', { title: 'Sevilla' });
 });
 
+router.get('/news', function(req, res, next) {
+  res.render('home', { title: 'Sevilla' });
+});
+
 router.get('/products', function(req, res, next) {
   res.render('products', { title: 'Sevilla' });
 });
