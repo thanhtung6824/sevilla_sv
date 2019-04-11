@@ -11,8 +11,9 @@ router.get('/products', function(req, res, next) {
 });
 
 router.get('/product', function(req, res, next) {
-  const img = `../assets/image/Untitled-2-0${req.query.id}.jpg`;
-  res.render('product', { title: 'Sevilla', img });
+  const img = `../assets/image/${req.query.id}.jpg`;
+  const imgLeft = `../assets/image/${req.query.id}.jpg`;
+  res.render('product', { title: 'Sevilla', img, imgLeft });
 });
 
 
