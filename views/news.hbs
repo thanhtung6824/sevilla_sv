@@ -54,12 +54,11 @@
                             <a class="nav-link" href="/news">TIN TỨC</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">KHUYẾN MÃI</a>
+                            <a class="nav-link" href="/promotions">KHUYẾN MÃI</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contacts">LIÊN HỆ</a>
                         </li>
-
                     </ul>
                 </div>
             </nav>
@@ -86,14 +85,42 @@
                         <a class="nav-link" href="/news">TIN TỨC</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">KHUYẾN MÃI</a>
+                        <a class="nav-link" href="/promotions">KHUYẾN MÃI</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contacts">LIÊN HỆ</a>
                     </li>
                 </ul>
             </div>
-            <div id="banner" class="page-banner container-fluid">
+            <div id="banner" class="page-banner carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#banner" data-slide-to="0" class="active"></li>
+                    <li data-target="#banner" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Content -->
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="item active">
+                        <img class="img-responsive" src="/assets/image/banner1.png" style="width:100%; height: 487px"
+                             alt="banner1">
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="item">
+                        <img class="img-responsive" src="/assets/image/banner2.png" style="width:100%; height: 487px"
+                             alt="banner2">
+                    </div>
+                </div>
+                <!-- Previous/Next controls -->
+                <a class="left carousel-control" href="#banner" role="button" data-slide="prev">
+                    <span class="icon-prev" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#banner" role="button" data-slide="next">
+                    <span class="icon-next" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
             <div class="toggable-tab center">
                 <ul class="nav nav-tabs center" id="mytabs">

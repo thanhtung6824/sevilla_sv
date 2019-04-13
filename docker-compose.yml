@@ -11,6 +11,6 @@ services:
     volumes:
       - .:/usr/src/app
     ports:
-      - "32768:3000"
+      - "3000:3000"
     depends_on:
       - mongo

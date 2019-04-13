@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="sevillaApp">
 
 <head>
     <meta charset="utf-8">
@@ -18,6 +18,10 @@
             font-family: UTMFONT;
             src: url(../assets/font/UTM_Helve_0.ttf);
         }
+        body {
+            font-family: UTMFONT !important;
+        }
+
 
     </style>
     <link rel="stylesheet" href="../assets/global/plugins/bootstrap/css/bootstrap.min.css">
@@ -27,7 +31,7 @@
 
 </head>
 
-<body>
+<body ng-controller="productsController">
 <div class="page-container-wrapper">
     <div class="page-header">
         <div class="page-header-inner">
@@ -50,7 +54,7 @@
                             <a class="nav-link" href="/news">TIN TỨC</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">KHUYẾN MÃI</a>
+                            <a class="nav-link" href="/promotions">KHUYẾN MÃI</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contacts">LIÊN HỆ</a>
@@ -82,14 +86,42 @@
                         <a class="nav-link" href="/news">TIN TỨC</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">KHUYẾN MÃI</a>
+                        <a class="nav-link" href="/promotions">KHUYẾN MÃI</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contacts">LIÊN HỆ</a>
                     </li>
                 </ul>
             </div>
-            <div id="banner" class="page-banner container-fluid">
+            <div id="banner" class="page-banner carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#banner" data-slide-to="0" class="active"></li>
+                    <li data-target="#banner" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Content -->
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="item active">
+                        <img class="img-responsive" src="/assets/image/banner1.png" style="width:100%; height: 487px"
+                             alt="banner1">
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="item">
+                        <img class="img-responsive" src="/assets/image/banner2.png" style="width:100%; height: 487px"
+                             alt="banner2">
+                    </div>
+                </div>
+                <!-- Previous/Next controls -->
+                <a class="left carousel-control" href="#banner" role="button" data-slide="prev">
+                    <span class="icon-prev" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#banner" role="button" data-slide="next">
+                    <span class="icon-next" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
             <div class="page-products-wrapper center row">
                 <div class="col-md-4 col-xs-12 categories-menu-wrapper">
@@ -97,6 +129,15 @@
                         <li class="list-item">
                             <div class="triangle-right"></div>
                             BẾP ĐIỆN TỬ
+                            <ul class="sub-menu">
+                                <li class="list-item">
+                                    MÁY HÚT MÙI
+                                </li>
+                                <li class="list-item">
+                                    MÁY HÚT MÙI
+                                </li>
+
+                            </ul>
                         </li>
                         <li class="list-item">
                             <div class="triangle-right"></div>
@@ -129,117 +170,125 @@
                         </div>
                     </div>
                     <div class="col-md-12 products-field">
-                        <div class="col-md-4 col-xs-12 product-detail">
+                        <div dir-paginate="product in products | itemsPerPage: pageSize" current-page="currentPage" class="col-md-4 col-xs-12 product-detail">
                             <a href="/product?id=1" class="thumbnail">
-                                <img src="../assets/image/pic-01.jpg" alt="...">
+                                <img src="../assets/image/pic-\{{product.id}}.jpg" alt="...">
                             </a>
                             <b class="product-name">
                                 Bếp điện tử cao cấp SEVILLA </br>
-                                SV - T 90S
+                                \{{product.code}}
                             </b> </br>
                             <b class="product-price">
-                                19.990.000 d
+                                \{{product.price}} d
                             </b>
                         </div>
-                        <div class="col-md-4 col-xs-12 product-detail">
-                            <a href="/product?id=2" class="thumbnail">
-                                <img src="../assets/image/pic-02.jpg" alt="...">
-                            </a>
-                            <b class="product-name">
-                                Bếp điện tử cao cấp SEVILLA </br>
-                                SV - T 88S
-                            </b> </br>
-                            <b class="product-price">
-                                16.990.000 d
-                            </b>
-                        </div>
-                        <div class="col-md-4 col-xs-12 product-detail">
-                            <a href="/product?id=3" class="thumbnail">
-                                <img src="../assets/image/pic-03.jpg" alt="...">
-                            </a>
-                            <b class="product-name">
-                                Bếp điện tử cao cấp SEVILLA </br>
-                                SV - T 80S
-                            </b> </br>
-                            <b class="product-price">
-                                13.990.000 d
-                            </b>
-                        </div>
-                        <div class="col-md-4 col-xs-12 product-detail">
-                            <a href="/product?id=4" class="thumbnail">
-                                <img src="../assets/image/pic-04.jpg" alt="...">
-                            </a>
-                            <b class="product-name">
-                                Bếp điện tử cao cấp SEVILLA </br>
-                                SV - T 75S
-                            </b> </br>
-                            <b class="product-price">
-                                11.990.000 d
-                            </b>
-                        </div>
-                        <div class="col-md-4 col-xs-12 product-detail">
-                            <a href="/product?id=5" class="thumbnail">
-                                <img src="../assets/image/pic-05.jpg" alt="...">
-                            </a>
-                            <b class="product-name">
-                                Bếp điện tử cao cấp SEVILLA </br>
-                                SV - T 70D
-                            </b> </br>
-                            <b class="product-price">
-                                10.990.000 d
-                            </b>
-                        </div>
-                        <div class="col-md-4 col-xs-12 product-detail">
-                            <a href="/product?id=6" class="thumbnail">
-                                <img src="../assets/image/pic-06.jpg" alt="...">
-                            </a>
-                            <b class="product-name">
-                                Bếp điện tử cao cấp SEVILLA </br>
-                                SV - T 70S
-                            </b> </br>
-                            <b class="product-price">
-                                10.990.000 d
-                            </b>
-                        </div>
-                        <div class="col-md-4 col-xs-12 product-detail">
-                            <a href="/product?id=7" class="thumbnail">
-                                <img src="../assets/image/pic-07.jpg" alt="...">
-                            </a>
-                            <b class="product-name">
-                                Bếp điện tử cao cấp SEVILLA </br>
-                                SV - T 60S
-                            </b> </br>
-                            <b class="product-price">
-                                9.990.000 d
-                            </b>
-                        </div>
-                        <div class="col-md-4 col-xs-12 product-detail">
-                            <a href="/product?id=8" class="thumbnail">
-                                <img src="../assets/image/pic-08.jpg" alt="...">
-                            </a>
-                            <b class="product-name">
-                                Bếp điện tử cao cấp SEVILLA </br>
-                                SV - T 60D
-                            </b> </br>
-                            <b class="product-price">
-                                9.990.000 d
-                            </b>
-                        </div>
-                        <div class="col-md-4 col-xs-12 product-detail">
-                            <a href="/product?id=9" class="thumbnail">
-                                <img src="../assets/image/pic-09.jpg" alt="...">
-                            </a>
-                            <b class="product-name">
-                                Bếp điện tử cao cấp SEVILLA </br>
-                                SV - M 500T
-                            </b> </br>
-                            <b class="product-price">
-                                19.990.000 d
-                            </b>
-                        </div>
+                        <!--<div class="col-md-4 col-xs-12 product-detail">-->
+                            <!--<a href="/product?id=2" class="thumbnail">-->
+                                <!--<img src="../assets/image/pic-02.jpg" alt="...">-->
+                            <!--</a>-->
+                            <!--<b class="product-name">-->
+                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                                <!--SV - T 88S-->
+                            <!--</b> </br>-->
+                            <!--<b class="product-price">-->
+                                <!--16.990.000 d-->
+                            <!--</b>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-4 col-xs-12 product-detail">-->
+                            <!--<a href="/product?id=3" class="thumbnail">-->
+                                <!--<img src="../assets/image/pic-03.jpg" alt="...">-->
+                            <!--</a>-->
+                            <!--<b class="product-name">-->
+                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                                <!--SV - T 80S-->
+                            <!--</b> </br>-->
+                            <!--<b class="product-price">-->
+                                <!--13.990.000 d-->
+                            <!--</b>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-4 col-xs-12 product-detail">-->
+                            <!--<a href="/product?id=4" class="thumbnail">-->
+                                <!--<img src="../assets/image/pic-04.jpg" alt="...">-->
+                            <!--</a>-->
+                            <!--<b class="product-name">-->
+                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                                <!--SV - T 75S-->
+                            <!--</b> </br>-->
+                            <!--<b class="product-price">-->
+                                <!--11.990.000 d-->
+                            <!--</b>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-4 col-xs-12 product-detail">-->
+                            <!--<a href="/product?id=5" class="thumbnail">-->
+                                <!--<img src="../assets/image/pic-05.jpg" alt="...">-->
+                            <!--</a>-->
+                            <!--<b class="product-name">-->
+                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                                <!--SV - T 70D-->
+                            <!--</b> </br>-->
+                            <!--<b class="product-price">-->
+                                <!--10.990.000 d-->
+                            <!--</b>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-4 col-xs-12 product-detail">-->
+                            <!--<a href="/product?id=6" class="thumbnail">-->
+                                <!--<img src="../assets/image/pic-06.jpg" alt="...">-->
+                            <!--</a>-->
+                            <!--<b class="product-name">-->
+                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                                <!--SV - T 70S-->
+                            <!--</b> </br>-->
+                            <!--<b class="product-price">-->
+                                <!--10.990.000 d-->
+                            <!--</b>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-4 col-xs-12 product-detail">-->
+                            <!--<a href="/product?id=7" class="thumbnail">-->
+                                <!--<img src="../assets/image/pic-07.jpg" alt="...">-->
+                            <!--</a>-->
+                            <!--<b class="product-name">-->
+                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                                <!--SV - T 60S-->
+                            <!--</b> </br>-->
+                            <!--<b class="product-price">-->
+                                <!--9.990.000 d-->
+                            <!--</b>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-4 col-xs-12 product-detail">-->
+                            <!--<a href="/product?id=8" class="thumbnail">-->
+                                <!--<img src="../assets/image/pic-08.jpg" alt="...">-->
+                            <!--</a>-->
+                            <!--<b class="product-name">-->
+                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                                <!--SV - T 60D-->
+                            <!--</b> </br>-->
+                            <!--<b class="product-price">-->
+                                <!--9.990.000 d-->
+                            <!--</b>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-4 col-xs-12 product-detail">-->
+                            <!--<a href="/product?id=9" class="thumbnail">-->
+                                <!--<img src="../assets/image/pic-09.jpg" alt="...">-->
+                            <!--</a>-->
+                            <!--<b class="product-name">-->
+                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                                <!--SV - M 500T-->
+                            <!--</b> </br>-->
+                            <!--<b class="product-price">-->
+                                <!--19.990.000 d-->
+                            <!--</b>-->
+                        <!--</div>-->
                     </div>
                 </div>
             </div>
+            <div class="center">
+                <dir-pagination-controls
+                        boundary-links="true"
+                        on-page-change="pageChangeHandler(newPageNumber)"
+                        template-url="../angular-utils-pagination/dirPagination.tpl.html">
+                </dir-pagination-controls>
+            </div>
+
             <div class="page-toolbar">
                 <div class="toolbar-hotline">
                         <span class="hotline-icon">
@@ -301,6 +350,11 @@
 <script type="text/javascript" src="../assets/global/plugins/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="../assets/global/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../assets/layouts/scripts/layout.js"></script>
+<script type="text/javascript" src="../assets/layouts/scripts/products.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+<script src="../angular-utils-pagination/dirPagination.js"></script>
+<script src="../angularjs/app.module.js"></script>
+<script src="../angularjs/products/products.controller.js"></script>
 </body>
 
 </html>

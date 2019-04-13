@@ -7,7 +7,15 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/news', function(req, res, next) {
-  res.render('home', { title: 'Sevilla' });
+  res.render('news', { title: 'Sevilla' });
+});
+
+router.get('/promotions', function(req, res, next) {
+  res.render('promotions', { title: 'Sevilla' });
+});
+
+router.get('/promotion', function(req, res, next) {
+  res.render('promotion', { title: 'Sevilla' });
 });
 
 router.get('/products', function(req, res, next) {
