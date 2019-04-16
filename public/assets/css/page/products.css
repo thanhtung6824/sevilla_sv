@@ -10,6 +10,7 @@
     position: absolute;
     padding: 0;
     height: 100%;
+    min-height: 766px;
 }
 
 .page-products-wrapper .categories-menu-wrapper .categories-menu {
@@ -43,6 +44,7 @@
 .page-products-wrapper .products-field-wrapper {
     padding: 0;
     float: right;
+    min-height: 766px;
 }
 
 .page-products-wrapper .products-field-wrapper .title-type-products {
@@ -66,6 +68,9 @@
 .page-products-wrapper .products-field {
     background-color: #ffffff;
     padding-right: 0;
+    min-height: 726px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
 }
 
 .page-products-wrapper .products-field .product-detail {

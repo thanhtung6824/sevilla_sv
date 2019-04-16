@@ -83,9 +83,9 @@
 
 .flex {
   display: flex; }
-  .flex .flex-item {
-    flex-grow: 1;
-    display: inline-block; }
+.flex .flex-item {
+  flex-grow: 1;
+  display: inline-block; }
 
 .triangle-right {
   width: 0;
@@ -117,33 +117,33 @@
 .toggable-tab {
   margin-top: 60px;
   width: 70%; }
-  .toggable-tab #mytabs {
-    /*width: 60%;*/
-    position: relative;
-    height: 50px;
-    border-radius: 10px; }
-  .toggable-tab .nav-tabs {
-    border-bottom: none; }
-  .toggable-tab li {
-    background-color: #ffffff;
-    position: absolute;
-    border-radius: 10px;
-    border: 1px solid #44a032;
-    overflow: hidden !important;
-    height: 100%; }
-    .toggable-tab li a {
-      width: 100%;
-      height: 100%; }
-  .toggable-tab .nav-tabs > li.active > a {
-    background-color: #44a032;
-    color: #fff;
-    border: none; }
-  .toggable-tab .nav-tabs > li.active {
-    background-color: #44a032; }
-  .toggable-tab a {
-    font-family: UTMBOLD;
-    color: #333333;
-    font-size: 12pt; }
+.toggable-tab #mytabs {
+  width: 60%;
+  position: relative;
+  height: 50px;
+  border-radius: 10px; }
+.toggable-tab .nav-tabs {
+  border-bottom: none; }
+.toggable-tab li {
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px solid #44a032;
+  overflow: hidden !important;
+  height: 100%; }
+.toggable-tab li a {
+  width: 100%;
+  height: 100%; }
+.toggable-tab .nav-tabs > li.active > a {
+  background-color: #44a032;
+  color: #fff;
+  border: none; }
+.toggable-tab .nav-tabs > li.active {
+  background-color: #44a032; }
+.toggable-tab a {
+  font-family: UTMBOLD;
+  color: #333333;
+  font-size: 12pt; }
 
 .item-field {
   margin-top: 50px; }
@@ -151,8 +151,11 @@
 .info-field {
   text-align: left;
   padding: 20px; }
-  .info-field .agency-title {
-    font-size: 12pt;
-    font-family: UTMBOLD;
-    font-weight: 600;
-    line-height: 50px; }
+.info-field .agency-title {
+  font-size: 12pt;
+  font-family: UTMBOLD;
+  font-weight: 600;
+  line-height: 50px; }
+
+.flex-item {
+  display: flex; }

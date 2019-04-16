@@ -2,68 +2,72 @@
     angular.module('sevillaApp')
         .controller('productsController', productsController);
 
-    productsController.$inject = ['$scope'];
+    productsController.$inject = ['$scope', '$timeout', '$http'];
 
-    function productsController($scope) {
+    function productsController($scope, $timeout, $http) {
         $scope.currentPage = 1;
         $scope.pageSize = 9;
-        $scope.products = [
-            {
-                name: 'Bếp điện tử cao cấp SEVILLA',
-                code: 'SV - T 90S',
-                price: '19.990.000',
-                id: '01'
-            },
-            {
-                name: 'Bếp điện tử cao cấp SEVILLA',
-                code: 'SV - T 88S',
-                price: '16.990.000',
-                id: '02'
-            },
-            {
-                name: 'Bếp điện tử cao cấp SEVILLA',
-                code: 'SV - T 80S',
-                price: '13.990.000',
-                id: '03'
-            },
-            {
-                name: 'Bếp điện tử cao cấp SEVILLA',
-                code: 'SV - T 75S',
-                price: '11.990.000',
-                id: '04'
-            },
-            {
-                name: 'Bếp điện tử cao cấp SEVILLA',
-                code: 'SV - T 70D',
-                price: '10.990.000',
-                id: '05'
-            },
-            {
-                name: 'Bếp điện tử cao cấp SEVILLA',
-                code: 'SV - T 70S',
-                price: '10.990.000',
-                id: '06'
-            },
-            {
-                name: 'Bếp điện tử cao cấp SEVILLA',
-                code: 'SV - T 60S',
-                price: '9.990.000',
-                id: '07'
-            },
-            {
-                name: 'Bếp điện tử cao cấp SEVILLA',
-                code: 'SV - T 60D',
-                price: '9.990.000',
-                id: '08'
-            },
-            {
-                name: 'Bếp điện tử cao cấp SEVILLA',
-                code: 'SV - M 500T',
-                price: '19.990.000',
-                id: '09'
+        $scope.typeOfProduct = 'beptu1';
+        $scope.typeOfSale = 'new';
+        $scope.filter = {
+            typeOfProduct: $scope.typeOfProduct,
+            typeOfSale: $scope.typeOfSale
+        };
+
+        $timeout(() => {
+            $('.bepdientu').trigger('click');
+
+        }, 1);
+
+        $scope.init = () => {
+            console.log($scope.productsAll)
+            // $scope.filterProduct($scope.filter)
+            console.log($scope.productsAll)
+
+            console.log($scope.products)
+
+            // $scope.filterProduct($scope.filter)
+        };
+
+        $scope.filterProduct = (filter) => {
+            $scope.products = $scope.productsAll.filter(function (item) {
+                for (var key in filter) {
+                    if (item[key] !== filter[key])
+                        return false;
+                }
+                return true;
+            });
+        };
+
+        $scope.changeProducts = (typeOfProduct, typeOfSale) => {
+            if (typeOfSale) {
+                $scope.filter.typeOfSale = typeOfSale;
+                $scope.typeOfSale = typeOfSale;
             }
-        ];
-
-
+            if (typeOfProduct) {
+                $scope.typeOfProduct = typeOfProduct
+                $scope.filter.typeOfProduct = typeOfProduct;
+            }
+            console.log($scope.typeOfProduct)
+            $scope.filterProduct($scope.filter)
+        }
     }
+
+    angular.module('sevillaApp')
+        .directive('checkImage', function($http) {
+        return {
+            restrict: 'A',
+            link: function(scope, element, attrs) {
+                attrs.$observe('ngSrc', function(ngSrc) {
+                    $http.get(ngSrc).success(function(){
+                        alert('image exist');
+                    }).error(function(){
+                        alert('image not exist');
+                        element.attr('src', '/assets/image/pic-01.jpg'); // set default image
+                    });
+                });
+            }
+        };
+    });
+
 })();

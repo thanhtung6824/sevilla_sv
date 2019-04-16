@@ -21,6 +21,9 @@
         body {
             font-family: UTMFONT !important;
         }
+        .active {
+            color: wheat !important;
+        }
 
 
     </style>
@@ -31,7 +34,7 @@
 
 </head>
 
-<body ng-controller="productsController">
+<body ng-controller="productsController" ng-init="productsAll={{products}}; init()">
 <div class="page-container-wrapper">
     <div class="page-header">
         <div class="page-header-inner">
@@ -69,7 +72,7 @@
     <div class="page-container">
         <div class="page-content-wrapper">
             <div class="page-logo">
-                <img src="../assets/image/logo.png" alt="">
+                <img  src="../assets/image/logo.png" alt="">
             </div>
             <div class="page-intro center">
                 <ul class="list-intro">
@@ -127,60 +130,133 @@
                 <div class="col-md-4 col-xs-12 categories-menu-wrapper">
                     <ul class="categories-menu">
                         <li class="list-item">
-                            <div class="triangle-right"></div>
-                            BẾP ĐIỆN TỬ
-                            <ul class="sub-menu">
-                                <li class="list-item">
-                                    MÁY HÚT MÙI
-                                </li>
-                                <li class="list-item">
-                                    MÁY HÚT MÙI
-                                </li>
+                            <div class="nav-link">
+                                <div class="triangle-right"></div>
+                                <span class="title">BẾP GAS</span>
+                            </div>
 
+                            <ul class="sub-menu">
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'ga2lo'}"
+                                    ng-click="changeProducts('ga2lo',null)">
+
+                                >
+                                    BẾP GAS ÂM 2 LÒ
+                                </li>
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'ga3lo'}"
+                                    ng-click="changeProducts('ga3lo',null)">
+
+                                >
+                                    BẾP GAS ÂM 3 LÒ
+                                </li>
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'gahh'}"
+                                    ng-click="changeProducts('gahh',null)">
+                                >
+                                    BẾP GAS - TỪ HỖN HỢP
+                                </li>
                             </ul>
                         </li>
                         <li class="list-item">
-                            <div class="triangle-right"></div>
-                            MÁY HÚT MÙI
+                            <div class="nav-link bepdientu">
+                                <div class="triangle-right"></div>
+                                <span class="title">BẾP ĐIỆN TỪ</span>
+                            </div>
+
+                            <ul class="sub-menu">
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'beptu1'}"
+                                    ng-click="changeProducts('beptu1',null)">
+                                    BẾP ĐIỆN TỪ ĐƠN
+                                </li>
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'beptu2'}"
+                                    ng-click="changeProducts('beptu2',null)">
+                                    BẾP ĐIỆN TỪ ĐÔI
+                                </li>
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'beptu3'}"
+                                    ng-click="changeProducts('beptu3',null)">
+                                    BẾP ĐIỆN TỪ BA
+                                </li>
+                            </ul>
                         </li>
                         <li class="list-item">
-                            <div class="triangle-right"></div>
-                            LÒ NƯỚNG
+                            <div class="nav-link">
+                                <div class="triangle-right"></div>
+                                <span class="title">MÁY HÚT KHỬ MÙI</span>
+                            </div>
+                            <ul class="sub-menu">
+                                <li class="list-item">
+                                    MÁY HÚT KHỬ MÙI ĐỘC LẬP
+                                </li>
+                                <li class="list-item">
+                                    MÁY HÚT KHỬ MÙI KÍNH VÁT
+                                </li>
+                                <li class="list-item">
+                                    MÁY HÚT KHỬ MÙI CHỮ T
+                                </li>
+                                <li class="list-item">
+                                    MÁY HÚT KHỬ MÙI KÍNH CONG
+                                </li>
+                                <li class="list-item">
+                                    MÁY HÚT KHỬ MÙI CỔ ĐIỂN
+                                </li>
+                            </ul>
                         </li>
                         <li class="list-item">
-                            <div class="triangle-right"></div>
+                            <!--<div class="triangle-right"></div>-->
+                            <span class="title">LÒ NƯỚNG</span>
+
+                        </li>
+                        <li class="list-item">
+                            <!--<div class="triangle-right"></div>-->
                             MÁY SẤY BÁT
                         </li>
                         <li class="list-item">
-                            <div class="triangle-right"></div>
-                            VÒI CHẬU
+                            <!--<div class="triangle-right"></div>-->
+                            MÁY RỬA BÁT
+                        </li>
+                        <li class="list-item">
+                            <!--<div class="triangle-right"></div>-->
+                            LÒ VI SÓNG
+                        </li>
+                        <li class="list-item">
+                            <!--<div class="triangle-right"></div>-->
+                            VÒI, CHẬU RỬA BÁT
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-8 col-xs-12 products-field-wrapper">
                     <div class="col-md-12 title-type-products">
-                        <div class="col-md-4 col-xs-12 title-badge">
-                            <span class="underline">SẢN PHẨM MỚI</span>
+                        <div ng-click="changeProducts(null,typeOfSale = 'new')" class="col-md-4 col-xs-12 title-badge">
+                            <span
+                                    ng-class="{'underline' : typeOfSale == 'new'}"
+                            >SẢN PHẨM MỚI</span>
                         </div>
-                        <div class="col-md-4 col-xs-12 title-badge">
-                            SẢN PHẨM NỔI BẬT
+                        <div ng-click="changeProducts(null,typeOfSale='highlight')" class="col-md-4 col-xs-12 title-badge">
+                            <span ng-class="{'underline' : typeOfSale == 'highlight'}"
+                            >SẢN PHẨM NỔI BẬT</span>
                         </div>
-                        <div class="col-md-4 col-xs-12 title-badge">
-                            SẢN PHẨM BÁN CHẠY
+                        <div  ng-click="changeProducts(null,typeOfSale='bestofsale')" class="col-md-4 col-xs-12 title-badge">
+                            <span ng-class="{'underline' : typeOfSale == 'bestofsale'}"
+                            >SẢN PHẨM BÁN CHẠY</span>
                         </div>
                     </div>
                     <div class="col-md-12 products-field">
                         <div dir-paginate="product in products | itemsPerPage: pageSize" current-page="currentPage" class="col-md-4 col-xs-12 product-detail">
-                            <a href="/product?id=1" class="thumbnail">
-                                <img src="../assets/image/pic-\{{product.id}}.jpg" alt="...">
+                            <a href="/product?id=\{{product.code}}" class="thumbnail">
+                                <img check-image ng-src="../assets/image/\{{product.code}}.jpg"  alt="...">
                             </a>
+                            \{{product.name}}
                             <b class="product-name">
-                                Bếp điện tử cao cấp SEVILLA </br>
+                                </br>
                                 \{{product.code}}
                             </b> </br>
-                            <b class="product-price">
-                                \{{product.price}} d
-                            </b>
+                            <!--<b class="product-price">-->
+                                <!--\{{product.price}} d-->
+                            <!--</b>-->
                         </div>
                         <!--<div class="col-md-4 col-xs-12 product-detail">-->
                             <!--<a href="/product?id=2" class="thumbnail">-->
@@ -299,7 +375,7 @@
                         HOTLINE
                     </span>
                         <span class="hotline-phone underline">
-                        090 000 9999
+                        0947.769.899
                     </span>
                         </span>
                 </div>
@@ -310,7 +386,9 @@
                     <img src="../assets/image/skype.png" alt="">
                 </div>
                 <div class="toolbar-social">
-                    <img src="../assets/image/facebook.png" width="44px" height="44px" alt="">
+                    <a href="https://www.facebook.com/bepsevilla/" target="_blank">
+                        <img src="../assets/image/facebook.png" width="44px" height="44px" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -322,18 +400,17 @@
             </div>
             <div class="footer-info">
                 <div class="company-name"><b>CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU NHẬT MINH</b></div>
-                <div class="company-address" style="color: #6e6e6e">Phòng giao dịch:Số 02/68 - Trần Thái Tông - Cầu Giấy -
-                    Hà Nội
+                <div class="company-address" style="color: #6e6e6e">Văn phòng giao dịch: U10-L12 KĐT Đô Nghĩa - Quận Hà Đông - Hà Nội
                 </div>
                 <div class="company-contact row">
                     <div class="col-md-3 col-xs-12">
-                        Phone: 043.782.3498; 043.212.3668
+                        Phone: 024.3912.2333; 024.3994.5566
                     </div>
                     <div class="col-md-3 col-xs-12">
-                        Mobile: 0947.769.899
+                        Hotline: 0947.769.899
                     </div>
                     <div class="col-md-3 col-xs-12">
-                        Email: phihong5000@gmail.com
+                        Email: nganhaitc@gmail.com
                     </div>
                     <div class="col-md-3 col-xs-12">
                         Skype: phihong5000
