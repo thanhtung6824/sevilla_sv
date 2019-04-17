@@ -7,26 +7,20 @@
     function productsController($scope, $timeout, $http) {
         $scope.currentPage = 1;
         $scope.pageSize = 9;
-        $scope.typeOfProduct = 'beptu1';
-        $scope.typeOfSale = 'new';
+        $scope.typeOfProduct = 'ga2lo';
+        $scope.typeOfSale = 'highlight';
         $scope.filter = {
             typeOfProduct: $scope.typeOfProduct,
             typeOfSale: $scope.typeOfSale
         };
 
         $timeout(() => {
-            $('.bepdientu').trigger('click');
+            $('.bepgas').trigger('click');
 
         }, 1);
 
         $scope.init = () => {
-            console.log($scope.productsAll)
-            // $scope.filterProduct($scope.filter)
-            console.log($scope.productsAll)
-
-            console.log($scope.products)
-
-            // $scope.filterProduct($scope.filter)
+            $scope.filterProduct($scope.filter)
         };
 
         $scope.filterProduct = (filter) => {

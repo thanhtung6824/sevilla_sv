@@ -35,7 +35,7 @@ a, span, div {
     -moz-transition: 2s ease-out;
     -o-transition: 2s ease-out;
     transition: 2s ease-out;
-    background-color: #ffffff !important;
+    background-color: #ffffff;
 }
 
 .page-header .page-header-inner {

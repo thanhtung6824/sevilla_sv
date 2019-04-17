@@ -391,6 +391,234 @@ const products = [
         typeOfProduct: 'gahh',
         typeOfSale: 'new'
     },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-7090TS',
+        typeOfProduct: 'kmchut',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-TK90',
+        typeOfProduct: 'kmchut',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-TS90',
+        typeOfProduct: 'kmchut',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-08Black',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'bestofsale'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-70W',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'bestofsale'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-70WR',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-270Black',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-270Inox',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-700C',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-6070Black',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-6070Inox',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-600700SYP',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-R70B',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-R70I',
+        typeOfProduct: 'kmcodien',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-900D1',
+        typeOfProduct: 'kmdoclap',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-900D2',
+        typeOfProduct: 'kmdoclap',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-DL290',
+        typeOfProduct: 'kmdoclap',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-380',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'bestofsale'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-180190',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'bestofsale'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-170',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-3388S17090',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-470490',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-527529',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-570590',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-670690',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-870890',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-33887090',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-Lexus7090',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'highlight'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-320',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'new'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-325',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'new'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-327',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'new'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-350',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'new'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-370',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'new'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-386',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'new'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-H360',
+        typeOfProduct: 'kmkinhcong',
+        typeOfSale: 'new'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-90K2',
+        typeOfProduct: 'kmkinhvat',
+        typeOfSale: 'new'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-90K3',
+        typeOfProduct: 'kmkinhvat',
+        typeOfSale: 'new'
+    },
+    {
+        name: 'Máy hút khử mùi cao cấp SEVILLA',
+        code: 'SV-7090K1',
+        typeOfProduct: 'kmkinhvat',
+        typeOfSale: 'highlight'
+    },
 
 ];
 

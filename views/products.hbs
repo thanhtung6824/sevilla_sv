@@ -132,7 +132,7 @@
                         <li class="list-item">
                             <div class="nav-link">
                                 <div class="triangle-right"></div>
-                                <span class="title">BẾP GAS</span>
+                                <span class="title bepgas">BẾP GAS</span>
                             </div>
 
                             <ul class="sub-menu">
@@ -188,19 +188,30 @@
                                 <span class="title">MÁY HÚT KHỬ MÙI</span>
                             </div>
                             <ul class="sub-menu">
-                                <li class="list-item">
-                                    MÁY HÚT KHỬ MÙI ĐỘC LẬP
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'kmdoclap'}"
+                                    ng-click="changeProducts('kmdoclap',null)">
+
+                                MÁY HÚT KHỬ MÙI ĐỘC LẬP
                                 </li>
-                                <li class="list-item">
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'kmkinhvat'}"
+                                    ng-click="changeProducts('kmkinhvat',null)">
                                     MÁY HÚT KHỬ MÙI KÍNH VÁT
                                 </li>
-                                <li class="list-item">
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'kmchut'}"
+                                    ng-click="changeProducts('kmchut',null)">
                                     MÁY HÚT KHỬ MÙI CHỮ T
                                 </li>
-                                <li class="list-item">
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'kmkinhcong'}"
+                                    ng-click="changeProducts('kmkinhcong',null)">
                                     MÁY HÚT KHỬ MÙI KÍNH CONG
                                 </li>
-                                <li class="list-item">
+                                <li class="list-item"
+                                    ng-class="{'active' : typeOfProduct == 'kmcodien'}"
+                                    ng-click="changeProducts('kmcodien',null)">
                                     MÁY HÚT KHỬ MÙI CỔ ĐIỂN
                                 </li>
                             </ul>
