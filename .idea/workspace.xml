@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="287c8334-10fc-4bb1-be57-369744060021" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/products.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/products.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/products.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="134" column="57" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/constants/products.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="707" column="24" selection-start-line="707" selection-start-column="24" selection-end-line="707" selection-end-column="24" />
+            <state relative-caret-position="346">
+              <caret line="265" column="50" selection-start-line="265" selection-start-column="50" selection-end-line="265" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -66,15 +56,15 @@
         <option value="$PROJECT_DIR$/public/assets/css/page/products.css" />
         <option value="$PROJECT_DIR$/public/assets/css/layouts/layout.css" />
         <option value="$PROJECT_DIR$/public/assets/layouts/scripts/layout.js" />
-        <option value="$PROJECT_DIR$/views/products.hbs" />
         <option value="$PROJECT_DIR$/public/angularjs/products/products.controller.js" />
         <option value="$PROJECT_DIR$/constants/products.js" />
+        <option value="$PROJECT_DIR$/views/products.hbs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-58" />
-    <option name="y" value="83" />
+    <option name="x" value="-24" />
+    <option name="y" value="106" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -174,18 +164,18 @@
       <workItem from="1555423214832" duration="2316000" />
       <workItem from="1555470586500" duration="101000" />
       <workItem from="1555519172535" duration="1512000" />
-      <workItem from="1556193610420" duration="716000" />
+      <workItem from="1556193610420" duration="774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38814000" />
+    <option name="totallyTimeSpent" value="38872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-58" y="83" width="1440" height="877" extended-state="0" />
+    <frame x="-24" y="106" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39484978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.39484978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -200,7 +190,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -445,17 +435,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/products.hbs">
+    <entry file="file://$PROJECT_DIR$/constants/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="134" column="57" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="57" />
+        <state relative-caret-position="254">
+          <caret line="707" column="24" selection-start-line="707" selection-start-column="24" selection-end-line="707" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constants/products.js">
+    <entry file="file://$PROJECT_DIR$/views/products.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="707" column="24" selection-start-line="707" selection-start-column="24" selection-end-line="707" selection-end-column="24" />
+        <state relative-caret-position="346">
+          <caret line="265" column="50" selection-start-line="265" selection-start-column="50" selection-end-line="265" selection-end-column="50" />
         </state>
       </provider>
     </entry>
