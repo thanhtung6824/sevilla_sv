@@ -2,88 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="287c8334-10fc-4bb1-be57-369744060021" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-08Black-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-08Black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-170-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-170.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-180190-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-180190.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-270Black-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-270Black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-270Inox-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-270Inox.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-320-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-320.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-325-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-325.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-327-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-327.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-33887090-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-33887090.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-3388S17090.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-3388SI7090-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-350-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-350.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-370-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-370.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-380-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-380.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-386-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-386.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-470490-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-470490.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-527529-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-527529.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-570590-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-570590.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-600700SYP-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-600700SYP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-6070Black-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-6070Black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-6070Inox.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-6070inox-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-670690-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-670690.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-700C-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-700C.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-7090K1-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-7090K1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-7090TS-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-7090TS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-70W-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-70W.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-70WR-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-70WR.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-870890-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-870890.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-900D1-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-900D1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-900D2-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-900D2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-90K2-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-90K2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-90K3-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-90K3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-DL290-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-DL290.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-H360-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-H360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-Lexus7090.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-R70B-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-R70B.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-R70I-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-R70I.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-TK90-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-TK90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-TS90-info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-TS90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/SV-lexus7090-info.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/angularjs/products/products.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/angularjs/products/products.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/layouts/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/layouts/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/layouts/scripts/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/layouts/scripts/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/products.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/products.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/angularjs/products/products.controller.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/products.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="22" column="28" selection-start-line="22" selection-end-line="23" />
+            <state relative-caret-position="-260">
+              <caret line="134" column="57" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/products.hbs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/constants/products.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1448">
-              <caret line="134" column="57" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="57" />
+            <state relative-caret-position="543">
+              <caret line="707" column="24" selection-start-line="707" selection-start-column="24" selection-end-line="707" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -146,16 +66,17 @@
         <option value="$PROJECT_DIR$/public/assets/css/page/products.css" />
         <option value="$PROJECT_DIR$/public/assets/css/layouts/layout.css" />
         <option value="$PROJECT_DIR$/public/assets/layouts/scripts/layout.js" />
-        <option value="$PROJECT_DIR$/constants/products.js" />
         <option value="$PROJECT_DIR$/views/products.hbs" />
         <option value="$PROJECT_DIR$/public/angularjs/products/products.controller.js" />
+        <option value="$PROJECT_DIR$/constants/products.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-58" />
+    <option name="y" value="83" />
     <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,12 +86,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="sevilla_sv" type="b2602c69:ProjectViewProjectNode" />
               <item name="sevilla_sv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sevilla_sv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sevilla_sv" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sevilla_sv" type="b2602c69:ProjectViewProjectNode" />
@@ -199,7 +126,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,18 +173,19 @@
       <workItem from="1555296843978" duration="14269000" />
       <workItem from="1555423214832" duration="2316000" />
       <workItem from="1555470586500" duration="101000" />
-      <workItem from="1555519172535" duration="914000" />
+      <workItem from="1555519172535" duration="1512000" />
+      <workItem from="1556193610420" duration="716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37500000" />
+    <option name="totallyTimeSpent" value="38814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
+    <frame x="-58" y="83" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3891273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39484978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -316,10 +243,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Downloads/Dockerfile">
+    <entry file="file://$USER_HOME$/Downloads/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Downloads/docker-compose.yml">
+    <entry file="file://$USER_HOME$/Downloads/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
@@ -511,24 +438,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constants/products.js">
+    <entry file="file://$PROJECT_DIR$/public/angularjs/products/products.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1018">
-          <caret line="617" column="24" selection-start-line="617" selection-start-column="24" selection-end-line="617" selection-end-column="24" />
+        <state relative-caret-position="313">
+          <caret line="22" column="28" selection-start-line="22" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/products.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1448">
+        <state relative-caret-position="-260">
           <caret line="134" column="57" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angularjs/products/products.controller.js">
+    <entry file="file://$PROJECT_DIR$/constants/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="22" column="28" selection-start-line="22" selection-end-line="23" />
+        <state relative-caret-position="543">
+          <caret line="707" column="24" selection-start-line="707" selection-start-column="24" selection-end-line="707" selection-end-column="24" />
         </state>
       </provider>
     </entry>
