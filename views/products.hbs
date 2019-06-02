@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <meta content="Sevilla bếp gia dụng" name="description"/>
     <meta content="" name="author"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,9 +17,11 @@
             font-family: UTMFONT;
             src: url(../assets/font/UTM_Helve_0.ttf);
         }
+
         body {
             font-family: UTMFONT !important;
         }
+
         .active {
             color: wheat !important;
         }
@@ -72,7 +73,7 @@
     <div class="page-container">
         <div class="page-content-wrapper">
             <div class="page-logo">
-                <img  src="../assets/image/logo.png" alt="">
+                <img src="../assets/image/logo.png" alt="">
             </div>
             <div class="page-intro center">
                 <ul class="list-intro">
@@ -127,7 +128,7 @@
                 </a>
             </div>
             <div class="page-products-wrapper center row">
-                <div class="col-md-4 col-xs-12 categories-menu-wrapper">
+                <div class="col-md-4 col-xs-4 categories-menu-wrapper">
                     <ul class="categories-menu">
                         <li class="list-item">
                             <div class="nav-link">
@@ -140,20 +141,20 @@
                                     ng-class="{'active' : typeOfProduct == 'ga2lo'}"
                                     ng-click="changeProducts('ga2lo',null)">
 
-                                >
+                                    >
                                     BẾP GAS ÂM 2 LÒ
                                 </li>
                                 <li class="list-item"
                                     ng-class="{'active' : typeOfProduct == 'ga3lo'}"
                                     ng-click="changeProducts('ga3lo',null)">
 
-                                >
+                                    >
                                     BẾP GAS ÂM 3 LÒ
                                 </li>
                                 <li class="list-item"
                                     ng-class="{'active' : typeOfProduct == 'gahh'}"
                                     ng-click="changeProducts('gahh',null)">
-                                >
+                                    >
                                     BẾP GAS - TỪ HỖN HỢP
                                 </li>
                             </ul>
@@ -192,7 +193,7 @@
                                     ng-class="{'active' : typeOfProduct == 'kmdoclap'}"
                                     ng-click="changeProducts('kmdoclap',null)">
 
-                                MÁY HÚT KHỬ MÙI ĐỘC LẬP
+                                    MÁY HÚT KHỬ MÙI ĐỘC LẬP
                                 </li>
                                 <li class="list-item"
                                     ng-class="{'active' : typeOfProduct == 'kmkinhvat'}"
@@ -239,131 +240,135 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-8 col-xs-12 products-field-wrapper">
+                <div class="col-md-8 col-xs-8 products-field-wrapper">
                     <div class="col-md-12 title-type-products">
                         <div ng-click="changeProducts(null,typeOfSale = 'new')" class="col-md-4 col-xs-12 title-badge">
                             <span
                                     ng-class="{'underline' : typeOfSale == 'new'}"
                             >SẢN PHẨM MỚI</span>
                         </div>
-                        <div ng-click="changeProducts(null,typeOfSale='highlight')" class="col-md-4 col-xs-12 title-badge">
+                        <div ng-click="changeProducts(null,typeOfSale='highlight')"
+                             class="col-md-4 col-xs-12 title-badge">
                             <span ng-class="{'underline' : typeOfSale == 'highlight'}"
                             >SẢN PHẨM NỔI BẬT</span>
                         </div>
-                        <div  ng-click="changeProducts(null,typeOfSale='bestofsale')" class="col-md-4 col-xs-12 title-badge">
+                        <div ng-click="changeProducts(null,typeOfSale='bestofsale')"
+                             class="col-md-4 col-xs-12 title-badge">
                             <span ng-class="{'underline' : typeOfSale == 'bestofsale'}"
                             >SẢN PHẨM BÁN CHẠY</span>
                         </div>
                     </div>
-                    <div class="col-md-12 products-field">
-                        <div dir-paginate="product in products | itemsPerPage: pageSize" current-page="currentPage" class="col-md-4 col-xs-12 product-detail">
+                    <div class="col-md-12 col-xs-12 products-field">
+                        <div style="text-align:center" dir-paginate="product in products | itemsPerPage: pageSize" current-page="currentPage"
+                             class="col-md-4 col-xs-12 product-detail">
                             <a href="/product?id=\{{product.code}}" class="thumbnail">
-                                <img check-image ng-src="../assets/image/\{{product.code}}.jpg"  alt="...">
+                            <img check-image ng-src="../assets/image/\{{product.code}}.jpg" alt="...">
                             </a>
-                            \{{product.name}}
+                            <span> \{{product.name}}
+                            </span>
                             <b class="product-name">
                                 </br>
                                 \{{product.display}}
                             </b> </br>
                             <!--<b class="product-price">-->
-                                <!--\{{product.price}} d-->
+                            <!--\{{product.price}} d-->
                             <!--</b>-->
                         </div>
                         <!--<div class="col-md-4 col-xs-12 product-detail">-->
-                            <!--<a href="/product?id=2" class="thumbnail">-->
-                                <!--<img src="../assets/image/pic-02.jpg" alt="...">-->
-                            <!--</a>-->
-                            <!--<b class="product-name">-->
-                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
-                                <!--SV - T 88S-->
-                            <!--</b> </br>-->
-                            <!--<b class="product-price">-->
-                                <!--16.990.000 d-->
-                            <!--</b>-->
+                        <!--<a href="/product?id=2" class="thumbnail">-->
+                        <!--<img src="../assets/image/pic-02.jpg" alt="...">-->
+                        <!--</a>-->
+                        <!--<b class="product-name">-->
+                        <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                        <!--SV - T 88S-->
+                        <!--</b> </br>-->
+                        <!--<b class="product-price">-->
+                        <!--16.990.000 d-->
+                        <!--</b>-->
                         <!--</div>-->
                         <!--<div class="col-md-4 col-xs-12 product-detail">-->
-                            <!--<a href="/product?id=3" class="thumbnail">-->
-                                <!--<img src="../assets/image/pic-03.jpg" alt="...">-->
-                            <!--</a>-->
-                            <!--<b class="product-name">-->
-                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
-                                <!--SV - T 80S-->
-                            <!--</b> </br>-->
-                            <!--<b class="product-price">-->
-                                <!--13.990.000 d-->
-                            <!--</b>-->
+                        <!--<a href="/product?id=3" class="thumbnail">-->
+                        <!--<img src="../assets/image/pic-03.jpg" alt="...">-->
+                        <!--</a>-->
+                        <!--<b class="product-name">-->
+                        <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                        <!--SV - T 80S-->
+                        <!--</b> </br>-->
+                        <!--<b class="product-price">-->
+                        <!--13.990.000 d-->
+                        <!--</b>-->
                         <!--</div>-->
                         <!--<div class="col-md-4 col-xs-12 product-detail">-->
-                            <!--<a href="/product?id=4" class="thumbnail">-->
-                                <!--<img src="../assets/image/pic-04.jpg" alt="...">-->
-                            <!--</a>-->
-                            <!--<b class="product-name">-->
-                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
-                                <!--SV - T 75S-->
-                            <!--</b> </br>-->
-                            <!--<b class="product-price">-->
-                                <!--11.990.000 d-->
-                            <!--</b>-->
+                        <!--<a href="/product?id=4" class="thumbnail">-->
+                        <!--<img src="../assets/image/pic-04.jpg" alt="...">-->
+                        <!--</a>-->
+                        <!--<b class="product-name">-->
+                        <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                        <!--SV - T 75S-->
+                        <!--</b> </br>-->
+                        <!--<b class="product-price">-->
+                        <!--11.990.000 d-->
+                        <!--</b>-->
                         <!--</div>-->
                         <!--<div class="col-md-4 col-xs-12 product-detail">-->
-                            <!--<a href="/product?id=5" class="thumbnail">-->
-                                <!--<img src="../assets/image/pic-05.jpg" alt="...">-->
-                            <!--</a>-->
-                            <!--<b class="product-name">-->
-                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
-                                <!--SV - T 70D-->
-                            <!--</b> </br>-->
-                            <!--<b class="product-price">-->
-                                <!--10.990.000 d-->
-                            <!--</b>-->
+                        <!--<a href="/product?id=5" class="thumbnail">-->
+                        <!--<img src="../assets/image/pic-05.jpg" alt="...">-->
+                        <!--</a>-->
+                        <!--<b class="product-name">-->
+                        <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                        <!--SV - T 70D-->
+                        <!--</b> </br>-->
+                        <!--<b class="product-price">-->
+                        <!--10.990.000 d-->
+                        <!--</b>-->
                         <!--</div>-->
                         <!--<div class="col-md-4 col-xs-12 product-detail">-->
-                            <!--<a href="/product?id=6" class="thumbnail">-->
-                                <!--<img src="../assets/image/pic-06.jpg" alt="...">-->
-                            <!--</a>-->
-                            <!--<b class="product-name">-->
-                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
-                                <!--SV - T 70S-->
-                            <!--</b> </br>-->
-                            <!--<b class="product-price">-->
-                                <!--10.990.000 d-->
-                            <!--</b>-->
+                        <!--<a href="/product?id=6" class="thumbnail">-->
+                        <!--<img src="../assets/image/pic-06.jpg" alt="...">-->
+                        <!--</a>-->
+                        <!--<b class="product-name">-->
+                        <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                        <!--SV - T 70S-->
+                        <!--</b> </br>-->
+                        <!--<b class="product-price">-->
+                        <!--10.990.000 d-->
+                        <!--</b>-->
                         <!--</div>-->
                         <!--<div class="col-md-4 col-xs-12 product-detail">-->
-                            <!--<a href="/product?id=7" class="thumbnail">-->
-                                <!--<img src="../assets/image/pic-07.jpg" alt="...">-->
-                            <!--</a>-->
-                            <!--<b class="product-name">-->
-                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
-                                <!--SV - T 60S-->
-                            <!--</b> </br>-->
-                            <!--<b class="product-price">-->
-                                <!--9.990.000 d-->
-                            <!--</b>-->
+                        <!--<a href="/product?id=7" class="thumbnail">-->
+                        <!--<img src="../assets/image/pic-07.jpg" alt="...">-->
+                        <!--</a>-->
+                        <!--<b class="product-name">-->
+                        <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                        <!--SV - T 60S-->
+                        <!--</b> </br>-->
+                        <!--<b class="product-price">-->
+                        <!--9.990.000 d-->
+                        <!--</b>-->
                         <!--</div>-->
                         <!--<div class="col-md-4 col-xs-12 product-detail">-->
-                            <!--<a href="/product?id=8" class="thumbnail">-->
-                                <!--<img src="../assets/image/pic-08.jpg" alt="...">-->
-                            <!--</a>-->
-                            <!--<b class="product-name">-->
-                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
-                                <!--SV - T 60D-->
-                            <!--</b> </br>-->
-                            <!--<b class="product-price">-->
-                                <!--9.990.000 d-->
-                            <!--</b>-->
+                        <!--<a href="/product?id=8" class="thumbnail">-->
+                        <!--<img src="../assets/image/pic-08.jpg" alt="...">-->
+                        <!--</a>-->
+                        <!--<b class="product-name">-->
+                        <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                        <!--SV - T 60D-->
+                        <!--</b> </br>-->
+                        <!--<b class="product-price">-->
+                        <!--9.990.000 d-->
+                        <!--</b>-->
                         <!--</div>-->
                         <!--<div class="col-md-4 col-xs-12 product-detail">-->
-                            <!--<a href="/product?id=9" class="thumbnail">-->
-                                <!--<img src="../assets/image/pic-09.jpg" alt="...">-->
-                            <!--</a>-->
-                            <!--<b class="product-name">-->
-                                <!--Bếp điện tử cao cấp SEVILLA </br>-->
-                                <!--SV - M 500T-->
-                            <!--</b> </br>-->
-                            <!--<b class="product-price">-->
-                                <!--19.990.000 d-->
-                            <!--</b>-->
+                        <!--<a href="/product?id=9" class="thumbnail">-->
+                        <!--<img src="../assets/image/pic-09.jpg" alt="...">-->
+                        <!--</a>-->
+                        <!--<b class="product-name">-->
+                        <!--Bếp điện tử cao cấp SEVILLA </br>-->
+                        <!--SV - M 500T-->
+                        <!--</b> </br>-->
+                        <!--<b class="product-price">-->
+                        <!--19.990.000 d-->
+                        <!--</b>-->
                         <!--</div>-->
                     </div>
                 </div>
@@ -376,32 +381,32 @@
                 </dir-pagination-controls>
             </div>
 
-            <div class="page-toolbar">
-                <div class="toolbar-hotline">
-                        <span class="hotline-icon">
-                    <img src="../assets/image/hotline.png" width="35px" height="35px" alt="">
-                </span>
-                    <span class="hotline-contact">
-                    <span class="hotline-text">
-                        HOTLINE
-                    </span>
-                        <span class="hotline-phone underline">
-                        0947.769.899
-                    </span>
-                        </span>
-                </div>
-                <div class="toolbar-social">
-                    <img src="../assets/image/zalo.png" alt="">
-                </div>
-                <div class="toolbar-social">
-                    <img src="../assets/image/skype.png" alt="">
-                </div>
-                <div class="toolbar-social">
-                    <a href="https://www.facebook.com/bepsevilla/" target="_blank">
-                        <img src="../assets/image/facebook.png" width="44px" height="44px" alt="">
-                    </a>
-                </div>
-            </div>
+            <!--<div class="page-toolbar">-->
+            <!--<div class="toolbar-hotline">-->
+            <!--<span class="hotline-icon">-->
+            <!--<img src="../assets/image/hotline.png" width="35px" height="35px" alt="">-->
+            <!--</span>-->
+            <!--<span class="hotline-contact">-->
+            <!--<span class="hotline-text">-->
+            <!--HOTLINE-->
+            <!--</span>-->
+            <!--<span class="hotline-phone underline">-->
+            <!--0947.769.899-->
+            <!--</span>-->
+            <!--</span>-->
+            <!--</div>-->
+            <!--<div class="toolbar-social">-->
+            <!--<img src="../assets/image/zalo.png" alt="">-->
+            <!--</div>-->
+            <!--<div class="toolbar-social">-->
+            <!--<img src="../assets/image/skype.png" alt="">-->
+            <!--</div>-->
+            <!--<div class="toolbar-social">-->
+            <!--<a href="https://www.facebook.com/bepsevilla/" target="_blank">-->
+            <!--<img src="../assets/image/facebook.png" width="44px" height="44px" alt="">-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--</div>-->
         </div>
     </div>
     <div class="page-footer">
@@ -411,7 +416,8 @@
             </div>
             <div class="footer-info">
                 <div class="company-name"><b>CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU NHẬT MINH</b></div>
-                <div class="company-address" style="color: #6e6e6e">Văn phòng giao dịch: U10-L12 KĐT Đô Nghĩa - Quận Hà Đông - Hà Nội
+                <div class="company-address" style="color: #6e6e6e">Văn phòng giao dịch: U10-L12 KĐT Đô Nghĩa - Quận Hà
+                    Đông - Hà Nội
                 </div>
                 <div class="company-contact row">
                     <div class="col-md-3 col-xs-12">

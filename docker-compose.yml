@@ -1,9 +1,5 @@
 version: '2'
 services:
-  mongo:
-    image: mongo
-    ports:
-      - "32769:27017"
   web:
     build: .
     working_dir: /usr/src/app
@@ -12,5 +8,3 @@ services:
       - .:/usr/src/app
     ports:
       - "3000:3000"
-    depends_on:
-      - mongo
