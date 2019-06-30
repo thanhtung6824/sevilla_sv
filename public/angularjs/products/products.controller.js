@@ -6,7 +6,7 @@
 
     function productsController($scope, $timeout, $http) {
         $scope.currentPage = 1;
-        $scope.pageSize = 9;
+        $scope.pageSize = 4;
         $scope.typeOfProduct = 'ga2lo';
         $scope.typeOfSale = 'highlight';
         $scope.filter = {
@@ -33,7 +33,7 @@
             });
         };
 
-        $scope.changeProducts = (typeOfProduct, typeOfSale) => {
+        $scope.changeProducts = (e, typeOfProduct, typeOfSale, from) => {
             if (typeOfSale) {
                 $scope.filter.typeOfSale = typeOfSale;
                 $scope.typeOfSale = typeOfSale;
@@ -42,26 +42,29 @@
                 $scope.typeOfProduct = typeOfProduct
                 $scope.filter.typeOfProduct = typeOfProduct;
             }
-            console.log($scope.typeOfProduct)
             $scope.filterProduct($scope.filter)
+            if (from === 'tab') {
+                $('.nav-tabs').find('li').removeClass('active')
+                $(e.target).parent().addClass('active')
+            }
         }
     }
 
     angular.module('sevillaApp')
-        .directive('checkImage', function($http) {
-        return {
-            restrict: 'A',
-            link: function(scope, element, attrs) {
-                attrs.$observe('ngSrc', function(ngSrc) {
-                    $http.get(ngSrc).success(function(){
-                        alert('image exist');
-                    }).error(function(){
-                        alert('image not exist');
-                        element.attr('src', '/assets/image/pic-01.jpg'); // set default image
+        .directive('checkImage', function ($http) {
+            return {
+                restrict: 'A',
+                link: function (scope, element, attrs) {
+                    attrs.$observe('ngSrc', function (ngSrc) {
+                        $http.get(ngSrc).success(function () {
+                            alert('image exist');
+                        }).error(function () {
+                            alert('image not exist');
+                            element.attr('src', '/assets/image/pic-01.jpg'); // set default image
+                        });
                     });
-                });
-            }
-        };
-    });
+                }
+            };
+        });
 
 })();
