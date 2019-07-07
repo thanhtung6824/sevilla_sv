@@ -18,6 +18,13 @@ router.get('/news', function (req, res, next) {
     });
 });
 
+router.get('/description', function (req, res, next) {
+    res.render('description/index', {
+        layout: 'description',
+        title: 'Sevilla',
+    });
+});
+
 router.get('/promotions', function (req, res, next) {
     res.render('promotions/index', {
         layout: 'promotions',
