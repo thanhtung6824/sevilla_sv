@@ -206,7 +206,7 @@ a, span, div {
     -moz-transition: 2s ease-out;
     -o-transition: 2s ease-out;
     transition: 2s ease-out;
-    background-color: #ffffff;
+    background-color: #5fa851;
 }
 
 .page-header .page-header-inner {
@@ -220,6 +220,7 @@ a, span, div {
 
 .page-header .page-header-inner .navbar .navbar-nav {
     display: flex;
+    justify-content: space-between;
 }
 
 .page-header .page-header-inner .navbar .navbar-nav li {
@@ -228,14 +229,17 @@ a, span, div {
 }
 
 .page-header .page-header-inner .navbar .navbar-nav li:hover {
-    background-color: #fff !important;
+    background-color: initial !important;
 }
 
 .page-header .page-header-inner .navbar a {
-    color: #333333;
-    font-size: 11pt;
-    font-weight: 550;
-    line-height: 60px;
+    color: #ffffff;
+    line-height: 35px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
 }
 
 .page-container {
