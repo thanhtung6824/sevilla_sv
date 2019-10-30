@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="287c8334-10fc-4bb1-be57-369744060021" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/description/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layouts/description.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/products.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/products.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,17 +16,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layouts/products.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="525">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/products/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -37,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/header.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="735">
               <caret line="49" selection-start-line="38" selection-end-line="49" />
             </state>
           </provider>
@@ -63,7 +69,6 @@
       <list>
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/startup.sh" />
         <option value="$PROJECT_DIR$/public/angularjs/app.module.js" />
         <option value="$PROJECT_DIR$/public/angularjs/product/product.controller.js" />
@@ -90,7 +95,7 @@
         <option value="$PROJECT_DIR$/views/promotion/index.hbs" />
         <option value="$PROJECT_DIR$/views/products.hbs" />
         <option value="$PROJECT_DIR$/public/assets/css/style_new.css" />
-        <option value="$PROJECT_DIR$/../Downloads/HTML_demo/list.html" />
+        <option value="$USER_HOME$/Downloads/HTML_demo/list.html" />
         <option value="$PROJECT_DIR$/views/product/index.hbs" />
         <option value="$PROJECT_DIR$/public/angularjs/products/products.controller.js" />
         <option value="$PROJECT_DIR$/public/assets/css/layouts/layout.css" />
@@ -107,12 +112,13 @@
         <option value="$PROJECT_DIR$/views/description/index.hbs" />
         <option value="$PROJECT_DIR$/views/layouts/products.hbs" />
         <option value="$PROJECT_DIR$/views/products/index.hbs" />
+        <option value="$PROJECT_DIR$/bin/www" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="61" />
+    <option name="x" value="134" />
+    <option name="y" value="162" />
     <option name="width" value="1231" />
     <option name="height" value="658" />
   </component>
@@ -130,6 +136,11 @@
             <path>
               <item name="sevilla_sv" type="b2602c69:ProjectViewProjectNode" />
               <item name="sevilla_sv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sevilla_sv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sevilla_sv" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sevilla_sv" type="b2602c69:ProjectViewProjectNode" />
@@ -211,18 +222,19 @@
       <workItem from="1560693806600" duration="4197000" />
       <workItem from="1561602161135" duration="746000" />
       <workItem from="1561886640829" duration="3703000" />
-      <workItem from="1562489562314" duration="3176000" />
+      <workItem from="1562489562314" duration="3472000" />
+      <workItem from="1572400224117" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54379000" />
+    <option name="totallyTimeSpent" value="54679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="61" width="1231" height="658" extended-state="0" />
+    <frame x="134" y="162" width="1231" height="658" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29941127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30445752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -270,7 +282,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/constants/product.json" />
     <entry file="file://$PROJECT_DIR$/public/angularjs/product/product.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
@@ -422,18 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Downloads/HTML_demo/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="169" selection-start-line="169" selection-end-line="184" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/HTML_demo/list.html" />
     <entry file="file://$PROJECT_DIR$/public/assets/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -579,24 +579,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/header.hbs">
+    <entry file="file://$PROJECT_DIR$/views/layouts/products.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="49" selection-start-line="38" selection-end-line="49" />
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/products.hbs">
+    <entry file="file://$PROJECT_DIR$/views/partials/header.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="735">
+          <caret line="49" selection-start-line="38" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/products/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
         </state>
       </provider>
     </entry>
